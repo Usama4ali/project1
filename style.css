@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+html{
+    font-size: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding:0 15px;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.left-section img{
+    width: 150px;
+    padding-left: 15px;
+}
+
+.center-section{
+    display: flex;
+    align-items: center;
+}
+.center-section form{
+    display: flex;
+    height: 38px;
+    width: 620px;
+}
+.center-section input{
+    width: 100%;
+    border-radius: 3px 0 0 3px;
+    padding: 12px;
+    font-style: 1.6rem;
+    border: 1px solid #d3d3d3;
+    border-right: none;
+}
+.center-section button{
+    width: 60px;
+    border: 1px solid #d3d3d3;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+.center-section button:hover{
+    background-color: rgb(217, 218, 220);
+}
+.center-section .mic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #eeecec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.center-section .mic:hover{
+    background-color: #dfdada;
+}
+.right-section a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.content{
+    display: flex;
+    height:calc(100vh - 60px);
+    background-color: #dfdada;
+}
+
+aside {
+    height: 100%;
+    width: 250px;
+    background-color: white;
+    overflow-y: auto;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    padding-right: 15;
+}
+
+.link-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.link-item:hover{
+    background-color: #eeecec;
+}
+
+.link-item span{
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+
+.active{
+    background-color: #d3d3d3;
+}
